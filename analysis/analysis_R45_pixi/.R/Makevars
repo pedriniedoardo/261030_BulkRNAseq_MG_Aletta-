@@ -1,0 +1,9 @@
+CPPFLAGS += -I$(CONDA_PREFIX)/include/freetype2 -I$(CONDA_PREFIX)/include/cairo
+
+CXX_STD = CXX17
+CXX11STD = -std=gnu++14
+CXX17STD = -std=gnu++17
+CXX20 = $(CXX17)
+CXX20FLAGS = $(CXX17FLAGS)
+CXX20PICFLAGS = $(CXX17PICFLAGS)
+CXX20STD = -std=gnu++20
